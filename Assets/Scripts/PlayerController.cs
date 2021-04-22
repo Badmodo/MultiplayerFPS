@@ -8,9 +8,9 @@ using TMPro;
 public class PlayerController : MonoBehaviour
 {
 
-    public float orinigalSpeed = 12f;
-    public float speed = 12f;
-    public float runSpeed = 20f;
+    public float orinigalSpeed = 8f;
+    public float speed = 8f;
+    public float runSpeed = 12f;
     public float gravity = -8f;
     public float jumpPower = 3f;
 
@@ -46,7 +46,6 @@ public class PlayerController : MonoBehaviour
 
     public LayerMask groundMask;
 
-    //public static float jumpPower = 3f;
     public float groundDistance = 0.4f;
 
     public static bool isGrounded = true;
@@ -54,9 +53,6 @@ public class PlayerController : MonoBehaviour
     Vector3 velocity;
 
     int gunCheckID;
-
-
-
 
     void Start()
     {
@@ -137,11 +133,13 @@ public class PlayerController : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
 
+        //start the characters light
         if (Input.GetKeyDown(KeyCode.Q))
         {
             StartCoroutine(PlayerLight());
         }
 
+        //while timer is running the light stays on
         if (timerIsRunning)
         {
             if (timeRemaining > 0)
@@ -151,16 +149,20 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-                Debug.Log("Time has run out!");
                 timeRemaining = 0;
                 timerIsRunning = false;
             }
         }
 
-        //if (Input.GetButton("Run"))
-        //{
-        //    speed = runSpeed;
-        //}
+        //run
+        if (Input.GetButton("Run"))
+        {
+            speed = runSpeed;
+        }
+        else
+        {
+            speed = orinigalSpeed;
+        }
     }
 
     IEnumerator PlayerLight()

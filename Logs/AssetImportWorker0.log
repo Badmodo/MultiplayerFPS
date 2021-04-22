@@ -2379,3 +2379,1890 @@ System memory in use after: 91.0 MB.
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2548.
 Total: 2.768600 ms (FindLiveObjects: 0.240800 ms CreateObjectMapping: 0.083900 ms MarkObjects: 2.322500 ms  DeleteObjects: 0.120100 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003892 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Failed to find Mirror runtime assembly
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:116)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 116)
+
+Failed to find Mirror runtime assembly
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:116)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 116)
+
+Failed to find Mirror runtime assembly
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:116)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 116)
+
+Failed to find Mirror runtime assembly
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:116)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 116)
+
+Failed to find Mirror runtime assembly
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:116)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 116)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2073 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.3 MB.
+System memory in use after: 98.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2805.
+Total: 2.667200 ms (FindLiveObjects: 0.278200 ms CreateObjectMapping: 0.143600 ms MarkObjects: 2.160900 ms  DeleteObjects: 0.083300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002446 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.849 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2073 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2808.
+Total: 3.056400 ms (FindLiveObjects: 0.314200 ms CreateObjectMapping: 0.157200 ms MarkObjects: 2.469700 ms  DeleteObjects: 0.114000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002335 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.898 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2073 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2811.
+Total: 2.775200 ms (FindLiveObjects: 0.257200 ms CreateObjectMapping: 0.100500 ms MarkObjects: 2.242300 ms  DeleteObjects: 0.174000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002279 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.883 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2073 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2814.
+Total: 7.280500 ms (FindLiveObjects: 0.630500 ms CreateObjectMapping: 0.347300 ms MarkObjects: 6.058600 ms  DeleteObjects: 0.241000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8458.015890 seconds.
+  path: Assets/Prefabs/Guns/PlayerGuns/Shotgun.prefab
+  artifactKey: Guid(60ca6576bc0be674a9e1055ecc2fd887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Guns/PlayerGuns/Shotgun.prefab using Guid(60ca6576bc0be674a9e1055ecc2fd887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28afcb41351e22b9bd0fcfd8df05b071') in 0.078595 seconds
+  Import took 0.082720 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003378 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.950 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2073 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2818.
+Total: 2.589000 ms (FindLiveObjects: 0.218100 ms CreateObjectMapping: 0.099700 ms MarkObjects: 2.105400 ms  DeleteObjects: 0.165000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 207.475905 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Models/FX_Sphere_Pivot_01.fbx
+  artifactKey: Guid(24f5f033eb0f6b543a548b5e7268b7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Models/FX_Sphere_Pivot_01.fbx using Guid(24f5f033eb0f6b543a548b5e7268b7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75bfc1cbb652cb893e890818764ea99') in 0.064347 seconds
+  Import took 0.067936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.560426 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Models/FX_Ammo_01.fbx
+  artifactKey: Guid(5b500ac07e3486a48ba9900caae64fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Models/FX_Ammo_01.fbx using Guid(5b500ac07e3486a48ba9900caae64fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae48119b6845a463e07d34bd8c58563') in 0.018260 seconds
+  Import took 0.021508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027065 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Models/FX_Ammo_01.fbx
+  artifactKey: Guid(5b500ac07e3486a48ba9900caae64fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Models/FX_Ammo_01.fbx using Guid(5b500ac07e3486a48ba9900caae64fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae48119b6845a463e07d34bd8c58563') in 0.013870 seconds
+  Import took 0.017556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.568887 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Models/FX_Arrow_02.fbx
+  artifactKey: Guid(7458e01912c97e64fa0518ea6abb8f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Models/FX_Arrow_02.fbx using Guid(7458e01912c97e64fa0518ea6abb8f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3755614ca2fbdf3f897ff05c21471e06') in 0.016839 seconds
+  Import took 0.020321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.227561 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Models/FX_Skull_02.fbx
+  artifactKey: Guid(796fd1b9bc60bbc4fa8f9cb6dccbb7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Models/FX_Skull_02.fbx using Guid(796fd1b9bc60bbc4fa8f9cb6dccbb7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9698a061303023ab0865e29c32f23af') in 0.015633 seconds
+  Import took 0.018964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.513297 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Models/FX_Heart_01.fbx
+  artifactKey: Guid(14c8c21ade1af6a49968dac473c756f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Models/FX_Heart_01.fbx using Guid(14c8c21ade1af6a49968dac473c756f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7f58bea8c173dda3a363c80958aaf2') in 0.024266 seconds
+  Import took 0.027680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.916708 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Circle.mat
+  artifactKey: Guid(f3053f8556ff7cf4fb59de5cf109104e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Circle.mat using Guid(f3053f8556ff7cf4fb59de5cf109104e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7aefea7e1425f8a33e828b1fd377b9f') in 0.025026 seconds
+  Import took 0.028931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.030345 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Sparkle.mat
+  artifactKey: Guid(2372c82814ea2ed41aed3d611d81953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Sparkle.mat using Guid(2372c82814ea2ed41aed3d611d81953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742aedcb815bd92f66aff456fdc26758') in 0.015543 seconds
+  Import took 0.020636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.210068 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Models/SM_Wep_Ammo_BulletLarge_01.fbx
+  artifactKey: Guid(9617305e7e2c7094fb534b7d3afc9a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Models/SM_Wep_Ammo_BulletLarge_01.fbx using Guid(9617305e7e2c7094fb534b7d3afc9a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900664f2a9754e203432abf8f8ed6a27') in 0.021659 seconds
+  Import took 0.025240 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002481 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.987 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2073 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2822.
+Total: 3.277400 ms (FindLiveObjects: 0.316600 ms CreateObjectMapping: 0.151600 ms MarkObjects: 2.674100 ms  DeleteObjects: 0.133600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 367.431586 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Soft_Spot.mat
+  artifactKey: Guid(3bd0bff47a21f0b4089acd1d1b075bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Soft_Spot.mat using Guid(3bd0bff47a21f0b4089acd1d1b075bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8811775684f7d3e352362c7bf3ddffc6') in 0.052315 seconds
+  Import took 0.056820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticles_Material_01_B.mat
+  artifactKey: Guid(8488848242723b14e9895f302b43b949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticles_Material_01_B.mat using Guid(8488848242723b14e9895f302b43b949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b8db2c6cdd05d0817922eef78234d3') in 0.026483 seconds
+  Import took 0.029882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/VertexPickerHDRP.mat
+  artifactKey: Guid(7d5c9fc287a2aa945a98203d41282923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/VertexPickerHDRP.mat using Guid(7d5c9fc287a2aa945a98203d41282923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370483cb7cf70ff941344eaa8ed4e80e') in 0.018530 seconds
+  Import took 0.021611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Sparkle 1.mat
+  artifactKey: Guid(75375bb6651b4c84995a0dbbc490cc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Sparkle 1.mat using Guid(75375bb6651b4c84995a0dbbc490cc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17090eeb6f565ac8063ce42bc983d043') in 0.012085 seconds
+  Import took 0.015226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Swipe_02.mat
+  artifactKey: Guid(413cbb0543875484fb2ad3f1d0a537de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Swipe_02.mat using Guid(413cbb0543875484fb2ad3f1d0a537de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fad5d9a70a419260c024f0d1957799') in 0.022021 seconds
+  Import took 0.024986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/VertexPicker.mat
+  artifactKey: Guid(30a8575e1d4cc4e01a88ffbf4f973d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/VertexPicker.mat using Guid(30a8575e1d4cc4e01a88ffbf4f973d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab6b4a4d5a177fc409d21dbdf4fd837') in 0.013201 seconds
+  Import took 0.016404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat
+  artifactKey: Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat using Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f2b5f772db25a1cd28a17f22c7617f') in 0.024464 seconds
+  Import took 0.027403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_VertexLitBlended_Light.mat
+  artifactKey: Guid(4bd4855edb749174180df19dc61807a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_VertexLitBlended_Light.mat using Guid(4bd4855edb749174180df19dc61807a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77e2f2284afcf70ddb6ce1e453b693f') in 0.013306 seconds
+  Import took 0.016744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Mirror/Examples/AdditiveScenes/Materials/Quad.mat
+  artifactKey: Guid(6eb3f3ba66756364d8b94e662e7e8af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/AdditiveScenes/Materials/Quad.mat using Guid(6eb3f3ba66756364d8b94e662e7e8af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd3c266100088a0243bb33858c34695') in 0.015056 seconds
+  Import took 0.018453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/TankMaterial.mat
+  artifactKey: Guid(2e67e42170aa64aa9a33424f8045ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/TankMaterial.mat using Guid(2e67e42170aa64aa9a33424f8045ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba4f3e6c198134d8fbc70b4eab685b9') in 0.021735 seconds
+  Import took 0.025002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticles_Material_01_C.mat
+  artifactKey: Guid(4f2936f284f9b574d8a56243f10d7db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticles_Material_01_C.mat using Guid(4f2936f284f9b574d8a56243f10d7db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698e801ec5292747dcc6c28552008cf6') in 0.019605 seconds
+  Import took 0.023452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/reconTank.fbx
+  artifactKey: Guid(38b49695fc0a4418bbc350f2366660c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/reconTank.fbx using Guid(38b49695fc0a4418bbc350f2366660c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd61aa84afb93b655289dca137425905') in 0.106580 seconds
+  Import took 0.110155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/Prize.mat
+  artifactKey: Guid(2becd2014627a774e9e8f668f281f1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/Prize.mat using Guid(2becd2014627a774e9e8f668f281f1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f798e43aa8d562e9ab63a91345013009') in 0.011483 seconds
+  Import took 0.014569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Soft_Spot 1.mat
+  artifactKey: Guid(ada0702ac52956f4ba6ea382af4146b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Soft_Spot 1.mat using Guid(ada0702ac52956f4ba6ea382af4146b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0831e5f39236c8e93737f980bd2c7760') in 0.014865 seconds
+  Import took 0.017991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticles_Material_01_A.mat
+  artifactKey: Guid(82eb6f79a83225a4a9d4586b6fcea4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticles_Material_01_A.mat using Guid(82eb6f79a83225a4a9d4586b6fcea4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2de1761f27dc299f3ced1f5a579d47') in 0.013679 seconds
+  Import took 0.016596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Mirror/Examples/Benchmark/Materials/White.mat
+  artifactKey: Guid(ff8f106e5c9e34da28ad9cee6edb2255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Benchmark/Materials/White.mat using Guid(ff8f106e5c9e34da28ad9cee6edb2255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6819e28a6f86549eb7f29db870487ca') in 0.213957 seconds
+  Import took 0.216928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Mirror/Examples/Room/Materials/Prize.mat
+  artifactKey: Guid(a1d7c9f39b41d414d86e64f7761cd545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Room/Materials/Prize.mat using Guid(a1d7c9f39b41d414d86e64f7761cd545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6abf776ed23f01ce2a884aeba21f22a7') in 0.007743 seconds
+  Import took 0.010845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Toon Muzzleflash Pack/Components/Material/Sprites Material.mat
+  artifactKey: Guid(69ed690a112ab9f4e8a4cdcdff2c570e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Muzzleflash Pack/Components/Material/Sprites Material.mat using Guid(69ed690a112ab9f4e8a4cdcdff2c570e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41be099a7200431985d2b2f5e7597bab') in 0.013990 seconds
+  Import took 0.017388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorLWRP.mat
+  artifactKey: Guid(077a003b1de1e4c35923be7a21b5d948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorLWRP.mat using Guid(077a003b1de1e4c35923be7a21b5d948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9111471ba5708f1c7fcd96db598e3c9d') in 0.018920 seconds
+  Import took 0.022171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Sun_Beams.mat
+  artifactKey: Guid(17a4c6781d082ff4a94fd2985ec70739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Sun_Beams.mat using Guid(17a4c6781d082ff4a94fd2985ec70739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764d4d20647a0e1729e0eae64999024a') in 0.020677 seconds
+  Import took 0.023966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Wind.mat
+  artifactKey: Guid(34d1067f93566394e813f63c2f054f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Wind.mat using Guid(34d1067f93566394e813f63c2f054f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6f66b87dda85c19082a3c662986025') in 0.012646 seconds
+  Import took 0.015745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Mirror/Examples/Benchmark/Materials/Red.mat
+  artifactKey: Guid(451c5da2c5056496297cffba02216286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Benchmark/Materials/Red.mat using Guid(451c5da2c5056496297cffba02216286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5eb926e117894262d9fea12dce6176') in 0.018892 seconds
+  Import took 0.022100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Mirror/Examples/AdditiveScenes/Materials/Shelter.mat
+  artifactKey: Guid(aef230244d219314fb8453f0365b8176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/AdditiveScenes/Materials/Shelter.mat using Guid(aef230244d219314fb8453f0365b8176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafcfcb6da6eabe61769949248257f39') in 0.012518 seconds
+  Import took 0.015822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Swipe_Grid.mat
+  artifactKey: Guid(292c23ebfcf66194caae3b5650a6e98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Swipe_Grid.mat using Guid(292c23ebfcf66194caae3b5650a6e98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315103d4cebb6c4abc55f8f70b902071') in 0.043534 seconds
+  Import took 0.046859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Mirror/Examples/RigidbodyPhysics/Materials/Red.mat
+  artifactKey: Guid(6ec777c59ba249a4aa16956e9dd9a0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/RigidbodyPhysics/Materials/Red.mat using Guid(6ec777c59ba249a4aa16956e9dd9a0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36601713a446dcafdaaebb9055fd11c') in 0.015718 seconds
+  Import took 0.019359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Mirror/Examples/AdditiveScenes/Materials/Sphere.mat
+  artifactKey: Guid(58936713efca1ec488624ee297b5d687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/AdditiveScenes/Materials/Sphere.mat using Guid(58936713efca1ec488624ee297b5d687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b355e5200ab144b42874a74a7fcef85') in 0.011569 seconds
+  Import took 0.014884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/UnlitVertexColor.mat
+  artifactKey: Guid(29966c3c0907b49b58c4e59342d020cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/UnlitVertexColor.mat using Guid(29966c3c0907b49b58c4e59342d020cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8894366481060641e19d62e81e240f0f') in 0.012707 seconds
+  Import took 0.015786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Texture.mat
+  artifactKey: Guid(9e5dcdb827982cf4da4c2126c56d31ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Texture.mat using Guid(9e5dcdb827982cf4da4c2126c56d31ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9579b8ec12592a19657f3b738df6cd') in 0.021734 seconds
+  Import took 0.024855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_VertexLitBlended_Dark.mat
+  artifactKey: Guid(285b0791008c39844936e10062f85a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_VertexLitBlended_Dark.mat using Guid(285b0791008c39844936e10062f85a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a582f202a2d2362580942df12ac44f') in 0.010719 seconds
+  Import took 0.014430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/PolygonSciFiCity/Materials/PolygonScifi_01_A.mat
+  artifactKey: Guid(06d40dc2e1401784eb420a0d2d5d7235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Materials/PolygonScifi_01_A.mat using Guid(06d40dc2e1401784eb420a0d2d5d7235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9caa66c33523b2216f5f1a23c579b36b') in 0.060811 seconds
+  Import took 0.065230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_VertexLitBlended_Dark.mat
+  artifactKey: Guid(285b0791008c39844936e10062f85a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_VertexLitBlended_Dark.mat using Guid(285b0791008c39844936e10062f85a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a582f202a2d2362580942df12ac44f') in 0.009074 seconds
+  Import took 0.012184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorHDRP.mat
+  artifactKey: Guid(c35693c079f3840f7938a4a323096e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorHDRP.mat using Guid(c35693c079f3840f7938a4a323096e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1bacac52d050ff54c3fcd857f2735d7') in 0.026000 seconds
+  Import took 0.029730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Wings_Grid.mat
+  artifactKey: Guid(ca8b896b1da14284ca29c35595cb750e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Wings_Grid.mat using Guid(ca8b896b1da14284ca29c35595cb750e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad705bfdcb16830d9f07e0ecbab8799f') in 0.033392 seconds
+  Import took 0.036599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Mirror/Examples/Tanks/Textures/ProjectileMaterial.mat
+  artifactKey: Guid(cba1b63a0bccc4b12ac25f05d0ae2dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Tanks/Textures/ProjectileMaterial.mat using Guid(cba1b63a0bccc4b12ac25f05d0ae2dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832d4cf8074fd6fd325b33e193354263') in 0.019431 seconds
+  Import took 0.023164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.016529 seconds.
+  path: Assets/Mirror/Examples/AdditiveScenes/Materials/Zone.mat
+  artifactKey: Guid(a7c679cf124f7ae46a0291ea35848554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/AdditiveScenes/Materials/Zone.mat using Guid(a7c679cf124f7ae46a0291ea35848554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3a36ed342cdc72041c06de5ca29a5b') in 0.190491 seconds
+  Import took 0.193947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.200850 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Ring_01.mat
+  artifactKey: Guid(7eb97b17430c1564eb6b43614bfbf371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Ring_01.mat using Guid(7eb97b17430c1564eb6b43614bfbf371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8eccc347bbe02a2257cd2b53eea6a0') in 0.027831 seconds
+  Import took 0.031613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_SemiCircle.mat
+  artifactKey: Guid(65a599a464dcddd4bbad0dae75e567e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_SemiCircle.mat using Guid(65a599a464dcddd4bbad0dae75e567e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e814ecad9f42a10e04898ce141e7451') in 0.022704 seconds
+  Import took 0.025599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Smoke_Mat_03.mat
+  artifactKey: Guid(33acf48390ff3dd49bee5f8de43d6876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Smoke_Mat_03.mat using Guid(33acf48390ff3dd49bee5f8de43d6876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9760a9c774bb243944187059e84b802') in 0.112526 seconds
+  Import took 0.115455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Rock_01.mat
+  artifactKey: Guid(52afa9e4bf9887a44aedbc2a547b658c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Rock_01.mat using Guid(52afa9e4bf9887a44aedbc2a547b658c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28cf95444ef861b332924c78af2a2caf') in 0.012002 seconds
+  Import took 0.014935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_RitualCircle_01.mat
+  artifactKey: Guid(d3042a8a5e619204e89c65372c11ec64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_RitualCircle_01.mat using Guid(d3042a8a5e619204e89c65372c11ec64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fdb5cf0085f29d5720b036b31ed857') in 0.050498 seconds
+  Import took 0.054093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Rock_02.mat
+  artifactKey: Guid(c6f1ea5e8ec046f449aafa6978e4ac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Rock_02.mat using Guid(c6f1ea5e8ec046f449aafa6978e4ac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e4ff8b1bb893d9f96c8aabf32f92ec') in 0.012044 seconds
+  Import took 0.015356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016664 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Rock_02.mat
+  artifactKey: Guid(c6f1ea5e8ec046f449aafa6978e4ac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Rock_02.mat using Guid(c6f1ea5e8ec046f449aafa6978e4ac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e4ff8b1bb893d9f96c8aabf32f92ec') in 0.011729 seconds
+  Import took 0.015179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.556867 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Ice_02.mat
+  artifactKey: Guid(0fbfad6b062b1a84f9f585ef8cfed1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Ice_02.mat using Guid(0fbfad6b062b1a84f9f585ef8cfed1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b00d0ce7962698578b9e60ed65c9f3') in 0.094654 seconds
+  Import took 0.098444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Leaves.mat
+  artifactKey: Guid(1d6ce39015646794bb453e5b4e85f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Leaves.mat using Guid(1d6ce39015646794bb453e5b4e85f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45075226fffff64b0afea6435d28d05') in 0.027289 seconds
+  Import took 0.030554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Lightning.mat
+  artifactKey: Guid(f3491b5edbcb43640a86e7ff9cc63d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Lightning.mat using Guid(f3491b5edbcb43640a86e7ff9cc63d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c32827c254209e0ae65e33038cad721') in 0.019047 seconds
+  Import took 0.021995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Leaves.mat
+  artifactKey: Guid(1d6ce39015646794bb453e5b4e85f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Leaves.mat using Guid(1d6ce39015646794bb453e5b4e85f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45075226fffff64b0afea6435d28d05') in 0.007976 seconds
+  Import took 0.011285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Ice_02.mat
+  artifactKey: Guid(0fbfad6b062b1a84f9f585ef8cfed1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Ice_02.mat using Guid(0fbfad6b062b1a84f9f585ef8cfed1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b00d0ce7962698578b9e60ed65c9f3') in 0.006503 seconds
+  Import took 0.009829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Portal_01.mat
+  artifactKey: Guid(63fe091b9b93bc24fb33ff7e92799835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Portal_01.mat using Guid(63fe091b9b93bc24fb33ff7e92799835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b801c141692aeee4e44f0ac4fffd84b') in 0.018233 seconds
+  Import took 0.022127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Lightning.mat
+  artifactKey: Guid(f3491b5edbcb43640a86e7ff9cc63d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Lightning.mat using Guid(f3491b5edbcb43640a86e7ff9cc63d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c32827c254209e0ae65e33038cad721') in 0.007215 seconds
+  Import took 0.010568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Material.mat
+  artifactKey: Guid(49fa84335db088c4dafac40a4d0743db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Material.mat using Guid(49fa84335db088c4dafac40a4d0743db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582fbd4c3bd5dd484110665a277c2ea5') in 0.009444 seconds
+  Import took 0.012416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_LightRay_Cube.mat
+  artifactKey: Guid(e6d1b113ac12bfc45a46c2e5991e3eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_LightRay_Cube.mat using Guid(e6d1b113ac12bfc45a46c2e5991e3eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf6d6aa3de8aa32e0230593b7e18a35') in 0.010396 seconds
+  Import took 0.013492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Rainbow_FX.mat
+  artifactKey: Guid(11213bb280baa0a46871c22c5a1c21d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Rainbow_FX.mat using Guid(11213bb280baa0a46871c22c5a1c21d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f996c681cd7c6be0a274e491736dc3f') in 0.039713 seconds
+  Import took 0.042848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.223891 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Fumes.mat
+  artifactKey: Guid(36fed2b2ce033b240899903fe04df57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Fumes.mat using Guid(36fed2b2ce033b240899903fe04df57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8172fe3a67f1e475c5fdb828872d0a19') in 0.023931 seconds
+  Import took 0.027344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_GroundBreaking.mat
+  artifactKey: Guid(91fed33cc38deab4fbdb803e4f223fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_GroundBreaking.mat using Guid(91fed33cc38deab4fbdb803e4f223fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d25323a2001c11f9d51fb8b6721990c') in 0.019263 seconds
+  Import took 0.022576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_HalfCircle.mat
+  artifactKey: Guid(98c2cb3a48b9fc849ae1b47e397eaece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_HalfCircle.mat using Guid(98c2cb3a48b9fc849ae1b47e397eaece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1b610a5362dedd6cc766d602ea9e80') in 0.017279 seconds
+  Import took 0.020566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Ice_01.mat
+  artifactKey: Guid(d4b280f132511204e807baef7817683d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Ice_01.mat using Guid(d4b280f132511204e807baef7817683d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12dfb9e897d45e4d58a3fa2c07cd4404') in 0.014379 seconds
+  Import took 0.018018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Fumes_01.mat
+  artifactKey: Guid(4c5f13e6a6061214697a61fa94a0e19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Fumes_01.mat using Guid(4c5f13e6a6061214697a61fa94a0e19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f612c3996b1479f586821e10b347f06f') in 0.012431 seconds
+  Import took 0.016087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Fumes_02.mat
+  artifactKey: Guid(10a8ddd34c118804ea1bfbcf936e1b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Fumes_02.mat using Guid(10a8ddd34c118804ea1bfbcf936e1b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148896ce283582effe69a6daa542594a') in 0.011275 seconds
+  Import took 0.014662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Hexagon.mat
+  artifactKey: Guid(3e40f2795430a314da835c0b22a031c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Hexagon.mat using Guid(3e40f2795430a314da835c0b22a031c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd526f8a813fd39ab6a1e97fb50cc9f17') in 0.021317 seconds
+  Import took 0.024799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Fumes_02.mat
+  artifactKey: Guid(10a8ddd34c118804ea1bfbcf936e1b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Fumes_02.mat using Guid(10a8ddd34c118804ea1bfbcf936e1b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148896ce283582effe69a6daa542594a') in 0.008358 seconds
+  Import took 0.011507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Fumes.mat
+  artifactKey: Guid(36fed2b2ce033b240899903fe04df57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Fumes.mat using Guid(36fed2b2ce033b240899903fe04df57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8172fe3a67f1e475c5fdb828872d0a19') in 0.013467 seconds
+  Import took 0.016390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Hexagon.mat
+  artifactKey: Guid(3e40f2795430a314da835c0b22a031c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Hexagon.mat using Guid(3e40f2795430a314da835c0b22a031c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd526f8a813fd39ab6a1e97fb50cc9f17') in 0.007693 seconds
+  Import took 0.010674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.824971 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Default.mat
+  artifactKey: Guid(0c6ceb865a050c64683892d8aa073844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Default.mat using Guid(0c6ceb865a050c64683892d8aa073844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214fc528cedaa5f2ae552b15748f70c2') in 0.013842 seconds
+  Import took 0.017205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Flies.mat
+  artifactKey: Guid(2ebe5f4397ab6f540a440c1b54e797bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Flies.mat using Guid(2ebe5f4397ab6f540a440c1b54e797bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4faefe7ff6f6d48a0705424467d8294') in 0.011866 seconds
+  Import took 0.015472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Dust.mat
+  artifactKey: Guid(cd97a4f0bfba00a46a4a29156f2a23bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Dust.mat using Guid(cd97a4f0bfba00a46a4a29156f2a23bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2666bddb2875517552ca5dbc359aec') in 0.022565 seconds
+  Import took 0.025927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Emissive_Fire.mat
+  artifactKey: Guid(b0921f44478f0f048a2a6c682c1bfb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Emissive_Fire.mat using Guid(b0921f44478f0f048a2a6c682c1bfb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2786bca0f7fe04186c1898fe9b67f585') in 0.151556 seconds
+  Import took 0.155001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Default_01.mat
+  artifactKey: Guid(417cbbf4755e392408e489080c4ede09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Default_01.mat using Guid(417cbbf4755e392408e489080c4ede09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8350dd0be96a4f6673fc1442013216') in 0.013016 seconds
+  Import took 0.016268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Empty.mat
+  artifactKey: Guid(0d02cd2cee6d0c548b6d6ee74d16e74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Empty.mat using Guid(0d02cd2cee6d0c548b6d6ee74d16e74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9b6893452cfdbaa95b54e27c4a060a') in 0.012084 seconds
+  Import took 0.015073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Emission.mat
+  artifactKey: Guid(11110f8b297fb5842984fab30e790888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Emission.mat using Guid(11110f8b297fb5842984fab30e790888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6d3d58162b28d81f87e6c30a35b515') in 0.102233 seconds
+  Import took 0.105083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058601 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Cloud.mat
+  artifactKey: Guid(f9a98fdfbba337d43bb545e357c48b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Cloud.mat using Guid(f9a98fdfbba337d43bb545e357c48b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bf262f54550960a54959b1a695ca60') in 0.012887 seconds
+  Import took 0.016448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Cutout_Round_Multiply.mat
+  artifactKey: Guid(f9fa7768fbf327049884a40be125ebc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Cutout_Round_Multiply.mat using Guid(f9fa7768fbf327049884a40be125ebc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbbfc46e0e4bd807bb9274fb5b45638') in 0.011481 seconds
+  Import took 0.014465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Cutout_Round_Dark.mat
+  artifactKey: Guid(819f0997b5a3d424bae37f31c7c24f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Cutout_Round_Dark.mat using Guid(819f0997b5a3d424bae37f31c7c24f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087c9d5e9d66dd9b82f52c310b6a2c57') in 0.011458 seconds
+  Import took 0.014968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Cutout_Round 1.mat
+  artifactKey: Guid(931f6cb81f32ff8418b581d210c8dd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Cutout_Round 1.mat using Guid(931f6cb81f32ff8418b581d210c8dd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b145fe2c78036a26df8d8e767a1a14') in 0.011652 seconds
+  Import took 0.014596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Dark.mat
+  artifactKey: Guid(964f6345d4feb0347958244fe3c32cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Dark.mat using Guid(964f6345d4feb0347958244fe3c32cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bdbe201dab5a72515956f91e7a7e90a') in 0.024830 seconds
+  Import took 0.027716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Cloud.mat
+  artifactKey: Guid(f9a98fdfbba337d43bb545e357c48b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Cloud.mat using Guid(f9a98fdfbba337d43bb545e357c48b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bf262f54550960a54959b1a695ca60') in 0.007038 seconds
+  Import took 0.010297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070728 seconds.
+  path: Assets/Mirror/Examples/Room/Materials/Player.mat
+  artifactKey: Guid(ac64a68d9ea8fa9459ff2f158065c1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Room/Materials/Player.mat using Guid(ac64a68d9ea8fa9459ff2f158065c1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb9879a60abf457f55181ff48ec3202') in 0.013337 seconds
+  Import took 0.016548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Additive_Soft.mat
+  artifactKey: Guid(f42a357a923c92f4b9818c765c8b2c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Additive_Soft.mat using Guid(f42a357a923c92f4b9818c765c8b2c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f8a4227ba460eb8b7ff80c99ee2ad3') in 0.012309 seconds
+  Import took 0.015482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Bubble_01.mat
+  artifactKey: Guid(43e9d91ac8fd6f84f88ed89971c20f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Bubble_01.mat using Guid(43e9d91ac8fd6f84f88ed89971c20f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777974131d589d83a37ea53fcf7117a2') in 0.037718 seconds
+  Import took 0.040773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Blood.mat
+  artifactKey: Guid(9efedd2a02a24ac479e285d244f6b34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Blood.mat using Guid(9efedd2a02a24ac479e285d244f6b34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a94df4a5aac8f496588ab10b66c47f') in 0.012021 seconds
+  Import took 0.015043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Models/Materials/PolygonApocalypse_Texture_01_Cleaned.mat
+  artifactKey: Guid(46fa74821d07d58499f981490df5206a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Models/Materials/PolygonApocalypse_Texture_01_Cleaned.mat using Guid(46fa74821d07d58499f981490df5206a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d683ee8a5010fffe63bcf86daf95c0c') in 0.011239 seconds
+  Import took 0.014513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Bubble.mat
+  artifactKey: Guid(331e0a6a99ab21f469cb8da0335a1312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Bubble.mat using Guid(331e0a6a99ab21f469cb8da0335a1312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef336d33c414a09932fbd5df74e92817') in 0.019657 seconds
+  Import took 0.023627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Blood.mat
+  artifactKey: Guid(9efedd2a02a24ac479e285d244f6b34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/PolygonParticleFX_Blood.mat using Guid(9efedd2a02a24ac479e285d244f6b34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a94df4a5aac8f496588ab10b66c47f') in 0.007116 seconds
+  Import took 0.010244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016390 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0993fc02711b3bbe6d995d41cc54c5cd') in 0.080840 seconds
+  Import took 0.084203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/PlayArea.mat
+  artifactKey: Guid(42fe0bcfbb65da3429ae2c289686e024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/PlayArea.mat using Guid(42fe0bcfbb65da3429ae2c289686e024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e03003f7adb9bf04f4b30e906d758ec') in 0.173523 seconds
+  Import took 0.176572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Mirror/Examples/AdditiveScenes/Materials/Player.mat
+  artifactKey: Guid(792117fe9a386a8489e8010bec746339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/AdditiveScenes/Materials/Player.mat using Guid(792117fe9a386a8489e8010bec746339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7386ffcd3b22ebe65e7e35e2dc4246') in 0.007548 seconds
+  Import took 0.010439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Mirror/Examples/Room/Materials/PlayArea.mat
+  artifactKey: Guid(3201636fa507dad448e9a36d66a80825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Room/Materials/PlayArea.mat using Guid(3201636fa507dad448e9a36d66a80825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924111200827ecc765b3ab7ec4a8ec4f') in 0.012139 seconds
+  Import took 0.015106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/NoDraw.mat
+  artifactKey: Guid(8cb4d6fee77fd4ee6895f08b240d625f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/NoDraw.mat using Guid(8cb4d6fee77fd4ee6895f08b240d625f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e032d6ece7d8f46d0b5b5e55149e43df') in 0.051085 seconds
+  Import took 0.054294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/Materials/pCube1Mat.mat
+  artifactKey: Guid(8756bb3bba9620f4cb9ad67f7383b1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Materials/Materials/pCube1Mat.mat using Guid(8756bb3bba9620f4cb9ad67f7383b1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83307e712e6234ae1ff88b17386755e6') in 0.011489 seconds
+  Import took 0.014818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/Player.mat
+  artifactKey: Guid(2089070a3452e6f4d866c53e51aae8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/Player.mat using Guid(2089070a3452e6f4d866c53e51aae8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ffce9709b6ade4702f17b09d64dd0d') in 0.007847 seconds
+  Import took 0.011358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.773393 seconds.
+  path: Assets/Low Poly Weapons VOL.1/Gun_MAT.mat
+  artifactKey: Guid(28f0b13c7e9707746b5e0b3336181560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Weapons VOL.1/Gun_MAT.mat using Guid(28f0b13c7e9707746b5e0b3336181560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33f0bad64b7e2321ebc31adfbbc2305') in 0.014542 seconds
+  Import took 0.018151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c269c21ac78df1e67178f1f5f025eb67') in 0.074990 seconds
+  Import took 0.078353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Icosphere.obj
+  artifactKey: Guid(1fe56a0e685b8434ebfeb53c69b59a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Icosphere.obj using Guid(1fe56a0e685b8434ebfeb53c69b59a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bf3866b7019e8888559806f0b124b8') in 0.025591 seconds
+  Import took 0.028589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Materials/Icosphere.mat
+  artifactKey: Guid(7e6bf26596c6f564097734c7cc319e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Materials/Icosphere.mat using Guid(7e6bf26596c6f564097734c7cc319e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92465ad9537200b72792489d42a98494') in 0.015282 seconds
+  Import took 0.018235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e12d244f2b72050c706ebcc8795bb7') in 0.019377 seconds
+  Import took 0.023289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c9a6e63d9fa0062e755b0df8e71c27') in 0.085382 seconds
+  Import took 0.088952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/FacePicker.mat
+  artifactKey: Guid(5695904020f064fdab5ad265b274a616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/FacePicker.mat using Guid(5695904020f064fdab5ad265b274a616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2c778cf3773dba80381ca394cb1401') in 0.011923 seconds
+  Import took 0.014851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/MASH Virtual/Asset/Material/Gun Mat.mat
+  artifactKey: Guid(126aeccc6c094bb48a7584d58853792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Asset/Material/Gun Mat.mat using Guid(126aeccc6c094bb48a7584d58853792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0865bafe0ccd668ecb9746f081e3fab') in 0.016370 seconds
+  Import took 0.020285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Mirror/Examples/RigidbodyPhysics/Materials/Green.mat
+  artifactKey: Guid(bbe2c7293af197640a2b40018e79b9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/RigidbodyPhysics/Materials/Green.mat using Guid(bbe2c7293af197640a2b40018e79b9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c5013771747e86d30e15d7e8840fe2') in 0.011819 seconds
+  Import took 0.014852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081f32e8efbcb7b69110f50fbc4d08a7') in 0.023240 seconds
+  Import took 0.027047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4971f4ee26649245eb0e58b7d866df0') in 0.024885 seconds
+  Import took 0.028210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c933163df3665d8079240fb6026d0b') in 0.032682 seconds
+  Import took 0.035885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture/Dirt.mat
+  artifactKey: Guid(29b49c27a74f145918356859bd7af511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture/Dirt.mat using Guid(29b49c27a74f145918356859bd7af511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a478e953d691a00cff6de45050645a') in 0.221753 seconds
+  Import took 0.225760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/EdgePickerHDRP.mat
+  artifactKey: Guid(980c24c5a501a9a429356d191ad356a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/EdgePickerHDRP.mat using Guid(980c24c5a501a9a429356d191ad356a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed95380a2c8cea4d537b3ce83f77b135') in 0.017967 seconds
+  Import took 0.021071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat
+  artifactKey: Guid(4ff996e3a0a5743a3987ab6231160665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat using Guid(4ff996e3a0a5743a3987ab6231160665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67944104b505b9edfbe584efb51df451') in 0.013114 seconds
+  Import took 0.016232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/Collider.mat
+  artifactKey: Guid(bbb235fff4f48426b863b36058ab66d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/Collider.mat using Guid(bbb235fff4f48426b863b36058ab66d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af232c80d317faecda9ebced829543fc') in 0.033103 seconds
+  Import took 0.036767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Mirror/Examples/AdditiveScenes/Materials/Cylinder.mat
+  artifactKey: Guid(439a10ee8f8d14040be9003239449741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/AdditiveScenes/Materials/Cylinder.mat using Guid(439a10ee8f8d14040be9003239449741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12aab25e95ece6a81587fa32b1a4fc30') in 0.011674 seconds
+  Import took 0.015013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Mirror/Examples/AdditiveScenes/Materials/Cube.mat
+  artifactKey: Guid(1d5f3015968dad04780bf9d2113cc772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/AdditiveScenes/Materials/Cube.mat using Guid(1d5f3015968dad04780bf9d2113cc772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca374028d8b89ebb060579315c637a30') in 0.020715 seconds
+  Import took 0.024488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/InvisibleFace.mat
+  artifactKey: Guid(978bbcf5050244f1b95128c04103f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/InvisibleFace.mat using Guid(978bbcf5050244f1b95128c04103f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c43563b546d503778cc485dbf0291d') in 0.012483 seconds
+  Import took 0.015644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/FacePickerHDRP.mat
+  artifactKey: Guid(a53ef0dd76f2fe74eb5f43267d7c0195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/FacePickerHDRP.mat using Guid(a53ef0dd76f2fe74eb5f43267d7c0195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7109a0a7c562f1a371529033c2e5c569') in 0.024894 seconds
+  Import took 0.027810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/PolygonSciFiCity/Materials/Misc/FX_LightRay.mat
+  artifactKey: Guid(91f21d47c2b9b7d4e946b81b5b39f0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Materials/Misc/FX_LightRay.mat using Guid(91f21d47c2b9b7d4e946b81b5b39f0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc64229b4079c916cde0ebc4fa953de9') in 0.010244 seconds
+  Import took 0.013358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014121 seconds.
+  path: Assets/PolygonSciFiCity/Materials/Misc/FX_LightRay.mat
+  artifactKey: Guid(91f21d47c2b9b7d4e946b81b5b39f0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Materials/Misc/FX_LightRay.mat using Guid(91f21d47c2b9b7d4e946b81b5b39f0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc64229b4079c916cde0ebc4fa953de9') in 0.008359 seconds
+  Import took 0.011750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.396653 seconds.
+  path: Assets/Animations/xbot@Gunplay (1).fbx
+  artifactKey: Guid(f2abc30bfcd53084a906b67cf422f1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/xbot@Gunplay (1).fbx using Guid(f2abc30bfcd53084a906b67cf422f1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd023ad8eb2d5eb90a5c7e6e7f612b530') in 0.068589 seconds
+  Import took 0.072283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Packages/com.unity.probuilder/Content/Material/Checker.mat
+  artifactKey: Guid(4717b199010ca4cb3a8a7a465ec457d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Material/Checker.mat using Guid(4717b199010ca4cb3a8a7a465ec457d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e101c652414986cd702fc3da768e5c3') in 0.026386 seconds
+  Import took 0.029618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Mirror/Examples/AdditiveScenes/Materials/Capsule.mat
+  artifactKey: Guid(3ec90781e3720544da7fc86055e6cbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/AdditiveScenes/Materials/Capsule.mat using Guid(3ec90781e3720544da7fc86055e6cbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69878bc662e67a2f7b24dea4bccfc62c') in 0.015555 seconds
+  Import took 0.018917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Materials/Casing.mat
+  artifactKey: Guid(ce19a69ce4db1d94c86aa8622c04d121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Casing.mat using Guid(ce19a69ce4db1d94c86aa8622c04d121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d077bfb5ca1325660d076f4a597045c') in 0.015786 seconds
+  Import took 0.019109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Mirror/Examples/RigidbodyPhysics/Materials/Blue.mat
+  artifactKey: Guid(84335f003ad8f42408d13787e76d4f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/RigidbodyPhysics/Materials/Blue.mat using Guid(84335f003ad8f42408d13787e76d4f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfdee656c1863808d1001d9e2e3ca42') in 0.015811 seconds
+  Import took 0.019018 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002619 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.925 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2073 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.0 MB.
+System memory in use after: 113.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2835.
+Total: 5.757900 ms (FindLiveObjects: 0.446300 ms CreateObjectMapping: 0.185100 ms MarkObjects: 4.923100 ms  DeleteObjects: 0.200800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 431.981143 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Prefabs/FX_Explosion_Large_Dark_01.prefab
+  artifactKey: Guid(4cf45cdce36e66e4a93614abb5ae7821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Prefabs/FX_Explosion_Large_Dark_01.prefab using Guid(4cf45cdce36e66e4a93614abb5ae7821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f5f2a00a4cc2feb11a8b485ae96c99') in 0.039865 seconds
+  Import took 0.043851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004589 seconds.
+  path: Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Prefabs/FX_Explosion_Large_Dark_01.prefab
+  artifactKey: Guid(4cf45cdce36e66e4a93614abb5ae7821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON - Particle FX Pack (Unity Only)/PolygonParticles/Prefabs/FX_Explosion_Large_Dark_01.prefab using Guid(4cf45cdce36e66e4a93614abb5ae7821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f5f2a00a4cc2feb11a8b485ae96c99') in 0.004875 seconds
+  Import took 0.008615 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003200 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.227 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2073 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.0 MB.
+System memory in use after: 113.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2838.
+Total: 3.011400 ms (FindLiveObjects: 0.259100 ms CreateObjectMapping: 0.104700 ms MarkObjects: 2.528300 ms  DeleteObjects: 0.117800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 563.303259 seconds.
+  path: Assets/Ultimate 10 Plus Shaders/Shaders
+  artifactKey: Guid(1863d77f164d07c46adccb68e84cd4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate 10 Plus Shaders/Shaders using Guid(1863d77f164d07c46adccb68e84cd4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69522934fa4d2c710c0526fc6ddc3193') in 0.012672 seconds
+  Import took 0.016757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.904370 seconds.
+  path: Assets/Ultimate 10 Plus Shaders/Shaders/Plexus
+  artifactKey: Guid(31135d533cd69574888e4d5992d0d10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate 10 Plus Shaders/Shaders/Plexus using Guid(31135d533cd69574888e4d5992d0d10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e6fcb296a37597e8854fea7da97ada') in 0.008462 seconds
+  Import took 0.011569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.709614 seconds.
+  path: Assets/Ultimate 10 Plus Shaders/Scripts
+  artifactKey: Guid(00da941db8a3b594db64e7d034097b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate 10 Plus Shaders/Scripts using Guid(00da941db8a3b594db64e7d034097b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752a750a073eb05159c7f715e60c9402') in 0.006507 seconds
+  Import took 0.009885 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002551 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.852 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2073 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.0 MB.
+System memory in use after: 113.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2841.
+Total: 2.447100 ms (FindLiveObjects: 0.238200 ms CreateObjectMapping: 0.100000 ms MarkObjects: 2.018800 ms  DeleteObjects: 0.089000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002778 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.864 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2068 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.9 MB.
+System memory in use after: 113.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2839.
+Total: 2.340800 ms (FindLiveObjects: 0.219500 ms CreateObjectMapping: 0.096400 ms MarkObjects: 1.943100 ms  DeleteObjects: 0.080900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002454 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.901 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2067 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.8 MB.
+System memory in use after: 112.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2842.
+Total: 5.260600 ms (FindLiveObjects: 0.515500 ms CreateObjectMapping: 0.266000 ms MarkObjects: 4.316900 ms  DeleteObjects: 0.160000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.085614 seconds.
+  path: Assets/MASH Virtual/Asset
+  artifactKey: Guid(ca62c254e86a9a349a255cb6f8577535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Asset using Guid(ca62c254e86a9a349a255cb6f8577535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676ed347f418c66e8d46cace44c86954') in 0.008641 seconds
+  Import took 0.011914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005259 seconds.
+  path: Assets/MASH Virtual/Asset
+  artifactKey: Guid(ca62c254e86a9a349a255cb6f8577535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Asset using Guid(ca62c254e86a9a349a255cb6f8577535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676ed347f418c66e8d46cace44c86954') in 0.002654 seconds
+  Import took 0.007178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.576958 seconds.
+  path: Assets/MASH Virtual/Asset/Material
+  artifactKey: Guid(af9d78435695674448a9c45c55ce6e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Asset/Material using Guid(af9d78435695674448a9c45c55ce6e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24614412c36d8bda195464828e1d08b2') in 0.006883 seconds
+  Import took 0.010203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.055648 seconds.
+  path: Assets/MASH Virtual/Asset/Mesh
+  artifactKey: Guid(3777e34d7fd81664a9912f6309abb8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Asset/Mesh using Guid(3777e34d7fd81664a9912f6309abb8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81f54f8e8e8106d8d7f14f346fe53f1') in 0.008090 seconds
+  Import took 0.011520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045530 seconds.
+  path: Assets/MASH Virtual/Asset/Mesh/Gun.fbx
+  artifactKey: Guid(7d06582fc8e311644a92e6d9e9cab273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Asset/Mesh/Gun.fbx using Guid(7d06582fc8e311644a92e6d9e9cab273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda3d38f756619f010a1d85f3896292c') in 0.096202 seconds
+  Import took 0.099495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.870855 seconds.
+  path: Assets/MASH Virtual/Asset/Texture
+  artifactKey: Guid(e3ef158c1171a0d43af19fddef848759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Asset/Texture using Guid(e3ef158c1171a0d43af19fddef848759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07203966cd548a9517e38a8f7d835e13') in 0.007827 seconds
+  Import took 0.011193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051957 seconds.
+  path: Assets/MASH Virtual/Asset/Texture/GunModle_Gun_AlbedoAO.png
+  artifactKey: Guid(e946a9dc39eec974286136379f4a0559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Asset/Texture/GunModle_Gun_AlbedoAO.png using Guid(e946a9dc39eec974286136379f4a0559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d94e1f6644abb3847cd9b0b6da9db6') in 0.016288 seconds
+  Import took 0.019823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/MASH Virtual/Asset/Texture/GunModle_Gun_AlbedoTransparency.png
+  artifactKey: Guid(ef57d3bdc8f38c84a89d283269b4eed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Asset/Texture/GunModle_Gun_AlbedoTransparency.png using Guid(ef57d3bdc8f38c84a89d283269b4eed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b5b47984e2df8d79cd2c1431dce663') in 0.013024 seconds
+  Import took 0.016436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/MASH Virtual/Asset/Texture/GunModle_Gun_Normal.png
+  artifactKey: Guid(56f65315b50ca2541a1d3d67192df3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Asset/Texture/GunModle_Gun_Normal.png using Guid(56f65315b50ca2541a1d3d67192df3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93133f5be01c85e35b6fc5908e80741') in 0.037508 seconds
+  Import took 0.040962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/MASH Virtual/Asset/Texture/GunModle_Gun_MetallicSmoothness.png
+  artifactKey: Guid(99623da3046b5cb4b8cb935b778d13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Asset/Texture/GunModle_Gun_MetallicSmoothness.png using Guid(99623da3046b5cb4b8cb935b778d13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c0eb4c32d24eec7f8cb8858980927a') in 0.019572 seconds
+  Import took 0.022719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/MASH Virtual/Asset/Texture/GunModle_Gun_Emission.png
+  artifactKey: Guid(75f8278e68f326e489206c7316821f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Asset/Texture/GunModle_Gun_Emission.png using Guid(75f8278e68f326e489206c7316821f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0aceefbeb2576be9e5529794d2ce96') in 0.012211 seconds
+  Import took 0.015187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.469129 seconds.
+  path: Assets/PolygonSciFiCity/Models
+  artifactKey: Guid(e77124c656b7e5c4f8281a784102a7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Models using Guid(e77124c656b7e5c4f8281a784102a7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad4c247e4c8bf8aa378f35a794a19c8') in 0.017919 seconds
+  Import took 0.021607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056245 seconds.
+  path: Assets/PolygonSciFiCity/Models/SM_Wep_MachinePistol_Gen1_01.fbx
+  artifactKey: Guid(e4509cca6ed80924fa4824a760b50e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Models/SM_Wep_MachinePistol_Gen1_01.fbx using Guid(e4509cca6ed80924fa4824a760b50e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e315c4c23ae6552076cd085f583de0') in 0.048887 seconds
+  Import took 0.052278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/PolygonSciFiCity/Models/SM_Wep_Pistol_01.fbx
+  artifactKey: Guid(b95723a86e64ccc41b2c65d6ebf7b76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Models/SM_Wep_Pistol_01.fbx using Guid(b95723a86e64ccc41b2c65d6ebf7b76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31487bdeae1e7f9ea7c6d256bdec8011') in 0.049664 seconds
+  Import took 0.052509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.192041 seconds.
+  path: Assets/PolygonSciFiCity/Textures
+  artifactKey: Guid(37185dcfb64d6114ea381ef61c87ed57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Textures using Guid(37185dcfb64d6114ea381ef61c87ed57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ca28d2d6b405e9c8815ad7edefa694') in 0.007087 seconds
+  Import took 0.010627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074779 seconds.
+  path: Assets/PolygonSciFiCity/Textures/Dirt_01.png
+  artifactKey: Guid(10098b6ab07bb81478f96a9c740c4fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Textures/Dirt_01.png using Guid(10098b6ab07bb81478f96a9c740c4fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17aec56486cb636692bc3b1b55afe41') in 0.015360 seconds
+  Import took 0.018619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/PolygonSciFiCity/Textures/PolygonScifi_01_A.png
+  artifactKey: Guid(db556d465e9f4ab4caffaf339cf5b656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Textures/PolygonScifi_01_A.png using Guid(db556d465e9f4ab4caffaf339cf5b656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896df430177eea261f52429969438ad1') in 0.012456 seconds
+  Import took 0.015373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/PolygonSciFiCity/Textures/PolygonSciFiCity_Texture_Normal.png
+  artifactKey: Guid(fff3796fd3630f64890b09296fcb8f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Textures/PolygonSciFiCity_Texture_Normal.png using Guid(fff3796fd3630f64890b09296fcb8f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2da427ad7b73b05cd9b58e436f29c1') in 0.039699 seconds
+  Import took 0.043785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/PolygonSciFiCity/Textures/PolygonSciFiCity_Texture_Metallic.tga
+  artifactKey: Guid(52f98fc3797b66443b95229635266011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Textures/PolygonSciFiCity_Texture_Metallic.tga using Guid(52f98fc3797b66443b95229635266011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658e176d6975788c770b1ddfab1da76b') in 0.086757 seconds
+  Import took 0.090234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/PolygonSciFiCity/Textures/PolygonScifi_Emissive_01.png
+  artifactKey: Guid(f31e15c1060870d4196e7875363cbb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Textures/PolygonScifi_Emissive_01.png using Guid(f31e15c1060870d4196e7875363cbb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78fa1c9540393aeb34b80af431958251') in 0.011318 seconds
+  Import took 0.014157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.008617 seconds.
+  path: Assets/PolygonSciFiCity/Materials
+  artifactKey: Guid(56e317c3a8094e54aa1d6f3054f43101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Materials using Guid(56e317c3a8094e54aa1d6f3054f43101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c545566570749b2567b983850dbfc830') in 0.008835 seconds
+  Import took 0.012253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.291807 seconds.
+  path: Assets/PolygonSciFiCity/Materials/Misc
+  artifactKey: Guid(0951db59a18f98d42872e3a809b72fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Materials/Misc using Guid(0951db59a18f98d42872e3a809b72fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3456269eb05e6d40f43ec7887d14d7') in 0.008384 seconds
+  Import took 0.011659 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002338 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.870 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2067 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.0 MB.
+System memory in use after: 113.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2848.
+Total: 2.573800 ms (FindLiveObjects: 0.254700 ms CreateObjectMapping: 0.117400 ms MarkObjects: 2.110600 ms  DeleteObjects: 0.090000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004724 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2067 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.0 MB.
+System memory in use after: 113.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2851.
+Total: 4.231800 ms (FindLiveObjects: 0.690100 ms CreateObjectMapping: 0.279400 ms MarkObjects: 3.156300 ms  DeleteObjects: 0.104300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1093.384309 seconds.
+  path: Assets/Scripts/WeaponPickUps.cs
+  artifactKey: Guid(dc77daf215e7c6a4d87ce1a9f01c4f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WeaponPickUps.cs using Guid(dc77daf215e7c6a4d87ce1a9f01c4f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89432b166d0c5dc2f43627115bf215f7') in 0.012134 seconds
+  Import took 0.016211 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002384 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.872 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2068 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.0 MB.
+System memory in use after: 113.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2855.
+Total: 5.438800 ms (FindLiveObjects: 0.551900 ms CreateObjectMapping: 0.266200 ms MarkObjects: 4.441000 ms  DeleteObjects: 0.177600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002312 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.871 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2068 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.0 MB.
+System memory in use after: 113.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2858.
+Total: 5.318200 ms (FindLiveObjects: 0.621400 ms CreateObjectMapping: 0.283600 ms MarkObjects: 4.323800 ms  DeleteObjects: 0.088000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 425.058870 seconds.
+  path: Assets/Scripts/WeaponPickUps.cs
+  artifactKey: Guid(dc77daf215e7c6a4d87ce1a9f01c4f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WeaponPickUps.cs using Guid(dc77daf215e7c6a4d87ce1a9f01c4f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d9798e3e0f2cd6ecc7e897beefa82e') in 0.010979 seconds
+  Import took 0.020375 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002614 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.815 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2068 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.9 MB.
+System memory in use after: 113.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2861.
+Total: 2.713700 ms (FindLiveObjects: 0.256200 ms CreateObjectMapping: 0.114500 ms MarkObjects: 2.253200 ms  DeleteObjects: 0.089000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003358 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.977 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2068 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.0 MB.
+System memory in use after: 113.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2864.
+Total: 2.739600 ms (FindLiveObjects: 0.248000 ms CreateObjectMapping: 0.107200 ms MarkObjects: 2.297000 ms  DeleteObjects: 0.086300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002512 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2068 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.0 MB.
+System memory in use after: 113.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2867.
+Total: 2.691100 ms (FindLiveObjects: 0.265600 ms CreateObjectMapping: 0.106700 ms MarkObjects: 2.228100 ms  DeleteObjects: 0.089900 ms)
+
