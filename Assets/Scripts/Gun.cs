@@ -8,14 +8,16 @@ public class Gun : MonoBehaviour
     public enum GunType { Semi, Burst, Auto};
     public GunType gunType;
 
+    public float damage = 10f;
+    public float range = 200f;
+    public float fireRate = 20f;
     public float gunID;
     public float rpm;
-    public float damage = 1;
+    public float cameraShaker = 0.4f;
 
     public int totalAmmo = 40;
     public int ammoMag = 10;
 
-    public GameObject muzzleFlashGO;
     public Transform spawn;
     public Transform shellEjectionPort;
     public Rigidbody shell;
@@ -32,15 +34,18 @@ public class Gun : MonoBehaviour
     public int currentAmmoInMag;
     private bool reloading;
 
-    private LineRenderer tracer;
+
+
+    public Camera fpsCam;
+    public ParticleSystem muzzleFlash;
+    public GameObject impactEffect;
+    public CameraShake cameraShake;
+
+    private float NextTimToFire = 0f;
 
     private void Start()
     {
         secondsBetweenShots = 60 / rpm;
-        if(GetComponent<LineRenderer>())
-        {
-            tracer = GetComponent<LineRenderer>();
-        }
 
         currentAmmoInMag = ammoMag;
 
@@ -50,24 +55,33 @@ public class Gun : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        fpsCam = transform.GetComponentInParent<Camera>();
+        cameraShake = transform.GetComponentInParent<CameraShake>();
+    }
+
     public void Shoot()
     {
         if (CanShoot())
         {
-            Ray ray = new Ray(spawn.position, spawn.forward);
+            muzzleFlash.Play();
+
+            StartCoroutine(cameraShake.Shake(.15f, cameraShaker));
+
             RaycastHit hit;
-
-            float shotDistance = 20f;
-
-            if (Physics.Raycast(ray, out hit, shotDistance, collisionMask))
+            if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
             {
-                shotDistance = hit.distance;
+                Debug.Log(hit.transform.name);
 
-                if(hit.collider.GetComponent<Character>())
+                Target target = hit.transform.GetComponent<Target>();
+                if (target != null)
                 {
-                    hitTarget.Play();
-                    hit.collider.GetComponent<Character>().TakeDamage(damage);
+                    target.TakeDamage(damage);
                 }
+
+                GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
+                Destroy(impactGO, 2f);
             }
 
             nextPossibleShootTime = Time.time + secondsBetweenShots;
@@ -84,11 +98,6 @@ public class Gun : MonoBehaviour
 
             GunFire.Play();
 
-            if(tracer)
-            {
-                StartCoroutine("RenderTracer", ray.direction * shotDistance);
-            }
-
             Rigidbody newShell = Instantiate(shell, shellEjectionPort.position, Quaternion.identity) as Rigidbody;
             newShell.AddForce(shellEjectionPort.forward * Random.Range(150f, 200f) + spawn.forward * Random.Range(-10, 10));
 
@@ -97,33 +106,10 @@ public class Gun : MonoBehaviour
         }
     }
 
-    IEnumerator MuzzleFlash()
-    {
-        if (currentAmmoInMag != 0)
-        {
-            muzzleFlashGO.SetActive(true);
-            yield return new WaitForSeconds(0.1f);
-            muzzleFlashGO.SetActive(false);
-        }
-    }
-
-    IEnumerator RenderTracer(Vector3 hitPoint)
-    {
-        StartCoroutine(MuzzleFlash());
-
-        tracer.enabled = true;
-        tracer.SetPosition(0, spawn.position);
-        tracer.SetPosition(1, spawn.position + hitPoint);
-        yield return new WaitForSeconds(0.03f); 
-        tracer.enabled = false;
-    }
-
     public void ShootContinuous()
     {
         if(gunType == GunType.Auto)
         {
-            StartCoroutine(MuzzleFlash());
-
             Shoot();
         }
     }

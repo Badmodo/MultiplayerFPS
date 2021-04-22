@@ -7,7 +7,6 @@ using TMPro;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
 {
-    public float rotationSpeed = 450f;
     public float walkSpeed = 5f;
     public float runSpeed = 8f;
     public float gravity = -8f;
@@ -25,10 +24,10 @@ public class PlayerController : MonoBehaviour
     public GameObject light;
     public GameObject torchTimer;
 
-    public AudioSource warning;
-    public AudioSource torchStart;
-    public AudioSource jump;
-    public AudioSource step;
+    //public AudioSource warning;
+    //public AudioSource torchStart;
+    //public AudioSource jump;
+    //public AudioSource step;
 
     private float acceleration = 5f;
     private Vector3 currentVelocityModifier;    
@@ -57,6 +56,9 @@ public class PlayerController : MonoBehaviour
 
     int gunCheckID;
 
+
+    public float speed = 12f;
+
     void Start()
     {
         _camera = Camera.main;
@@ -72,9 +74,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        //two different control types, one follow mouse one using wasd
-        ControlMouse();
-        //ControlWASD();
+        Move();
+
         if (currentGun)
         {
             if (Input.GetButtonDown("Shoot"))
@@ -140,29 +141,6 @@ public class PlayerController : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
 
-        if (Input.GetButtonDown("Jump"))
-        {
-            animator.SetBool("isIdle", false);
-            animator.SetBool("isJumping", true);
-        }
-        if (isGrounded == false)
-        {
-            //jump.Play();
-            animator.SetBool("isIdle", false);
-            animator.SetBool("isJumping", true);            
-        }
-        else if (isGrounded == true)
-        {
-            animator.SetBool("isJumping", false);
-        }
-
-        ////to change stance to a different animation 2 handed
-        //if (gunCheckID == 1)
-        //{
-        //    oneHanded = false;
-        //    twoHanded = true;
-        //}
-
         if (Input.GetKeyDown(KeyCode.Q))
         {
             StartCoroutine(PlayerLight());
@@ -186,12 +164,12 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator PlayerLight()
     {
-        torchStart.Play();
+        //torchStart.Play();
         torchTimer.SetActive(true);
         light.SetActive(true);
         timerIsRunning = true;
         yield return new WaitForSeconds(10f);
-        warning.Play();
+        //warning.Play();
         torchTimer.SetActive(false);
         light.SetActive(false);
         timeRemaining = 10;
@@ -206,76 +184,28 @@ public class PlayerController : MonoBehaviour
         timeText.text = string.Format("{0:00}", seconds);
     }
 
-    //player follows mouse
-    void ControlMouse()
+    void Move()
     {
-        Vector3 mousePosition = Input.mousePosition;
-        mousePosition = _camera.ScreenToWorldPoint(new Vector3(mousePosition.x, mousePosition.y, _camera.transform.position.y - transform.position.y));
-        targetRotation = Quaternion.LookRotation(mousePosition - new Vector3(transform.position.x, 0, transform.position.z));
-        transform.eulerAngles = Vector3.up * Mathf.MoveTowardsAngle(transform.eulerAngles.y, targetRotation.eulerAngles.y, rotationSpeed * Time.deltaTime);
+        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
-        Vector3 input = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
-
-        currentVelocityModifier = Vector3.MoveTowards(currentVelocityModifier, input, acceleration * Time.deltaTime);
-        Vector3 motion = currentVelocityModifier;
-        motion *= (Mathf.Abs(input.x) == 1 && Mathf.Abs(input.z) == 1) ? 0.7f : 1;
-        motion *= (Input.GetButton("Run")) ? runSpeed : walkSpeed;
-        motion += Vector3.up * gravity;
-
-        controller.Move(motion * Time.deltaTime);
-
-        if (oneHanded == true)
+        if (isGrounded && velocity.y < 0)
         {
-            twoHanded = false;
-            //animation
-            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.S))
-            {
-                //step.Play();
-                animator.SetBool("isIdle", false);
-                animator.SetBool("isWalking", true);                
-            }
-            else
-            {
-                animator.SetBool("isWalking", false);
-                animator.SetBool("isIdle", true);
-            }
+            velocity.y = -2f;
         }
-        else if (twoHanded == true)
-        {
-            oneHanded = false;
-            //animation
-            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.S))
-            {
-                animator.SetBool("is2HandedIdle", false);
-                animator.SetBool("is2HandedWalking", true);
-            }
-            else
-            {
-                animator.SetBool("is2HandedWalking", false);
-                animator.SetBool("is2HandedIdle", true);
-            }
-        }
+
+        float x = Input.GetAxis("Horizontal");
+        float z = Input.GetAxis("Vertical");
+
+        Vector3 move = transform.right * x + transform.forward * z;
+
+        controller.Move(move * speed * Time.deltaTime);
+
+        velocity.y += gravity * Time.deltaTime;
+
+        controller.Move(velocity * Time.deltaTime);
     }
 
-    //player follows WASD
-    void ControlWASD()
-    {
-        Vector3 input = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
 
-        if (input != Vector3.zero)
-        {
-            transform.rotation = Quaternion.LookRotation(input);
-            transform.eulerAngles = Vector3.up * Mathf.MoveTowardsAngle(transform.eulerAngles.y, targetRotation.eulerAngles.y, rotationSpeed * Time.deltaTime);
-        }
-
-        currentVelocityModifier = Vector3.MoveTowards(currentVelocityModifier, input, acceleration * Time.deltaTime);
-        Vector3 motion = currentVelocityModifier;
-        motion *= (Mathf.Abs(input.x) == 1 && Mathf.Abs(input.z) == 1) ? 0.7f : 1;
-        motion *= (Input.GetButton("Run")) ? runSpeed : walkSpeed;
-        motion += Vector3.up * gravity;
-
-        controller.Move(motion * Time.deltaTime);
-    }
 
     //equiping a gun to the hand slot!
     void Equip(int i)

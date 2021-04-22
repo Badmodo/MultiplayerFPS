@@ -211,22 +211,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 4195664797695537154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16234b732d8896041af402657426c1de, type: 3}
+  m_Script: {fileID: 11500000, guid: 310597eb98969ea43be9f4c9cc8fba0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gunType: 0
-  gunID: 1
-  rpm: 300
   damage: 10
-  impactForce: 100
   range: 200
   fireRate: 20
-  fpsCam: {fileID: 0}
-  muzzleFlash: {fileID: 8537707862927469345}
-  impactEffect: {fileID: 1180248314969840, guid: 101d62f0a3e4fef4eab61adb79c845df, type: 3}
-  cameraShake: {fileID: 0}
+  gunID: 1
+  rpm: 300
+  cameraShaker: 0.1
   totalAmmo: 40
-  ammoMag: 10
+  ammoMag: 7
   spawn: {fileID: 3663024919476539516}
   shellEjectionPort: {fileID: 3663024919374924983}
   shell: {fileID: 8733663092607999667, guid: e307d4be594ea9a47b64d653be1260a3, type: 3}
@@ -237,6 +233,10 @@ MonoBehaviour:
   hitTarget: {fileID: 2100341668580859797}
   gUI: {fileID: 0}
   currentAmmoInMag: 0
+  fpsCam: {fileID: 0}
+  muzzleFlash: {fileID: 8537707862927469345}
+  impactEffect: {fileID: 1180248314969840, guid: 101d62f0a3e4fef4eab61adb79c845df, type: 3}
+  cameraShake: {fileID: 0}
 --- !u!1 &8642879062835363266
 GameObject:
   m_ObjectHideFlags: 0
