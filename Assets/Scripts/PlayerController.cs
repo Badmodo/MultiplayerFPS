@@ -7,17 +7,16 @@ using TMPro;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
 {
-    public float walkSpeed = 5f;
-    public float runSpeed = 8f;
+
+    public float orinigalSpeed = 12f;
+    public float speed = 12f;
+    public float runSpeed = 20f;
     public float gravity = -8f;
     public float jumpPower = 3f;
 
     public float timeRemaining = 10;
     public bool timerIsRunning = false;
     public TMP_Text timeText;
-
-    public bool oneHanded;
-    public bool twoHanded;
 
     public Transform handHold;
     public GameCamera shake;
@@ -57,7 +56,7 @@ public class PlayerController : MonoBehaviour
     int gunCheckID;
 
 
-    public float speed = 12f;
+
 
     void Start()
     {
@@ -68,7 +67,6 @@ public class PlayerController : MonoBehaviour
 
         //start game with handgun
         Equip(0);
-        oneHanded = true;
         animator.SetBool("isIdle", true);
     }
 
@@ -81,8 +79,6 @@ public class PlayerController : MonoBehaviour
             if (Input.GetButtonDown("Shoot"))
             {
                 currentGun.Shoot();
-                ////camera jumping to original position
-                //StartCoroutine(shake.Shake(0.15f, 0.4f));
             }
             else if (Input.GetButton("Shoot"))
             {
@@ -94,7 +90,7 @@ public class PlayerController : MonoBehaviour
                 if(currentGun.Reload())
                 {
                     reloading = true;
-                    StartCoroutine(ReloadAnimation());
+                    //StartCoroutine(ReloadAnimation());
                 }
             }
             if(reloading)
@@ -104,14 +100,14 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        IEnumerator ReloadAnimation()
-        {
-            animator.SetBool("isIdle", false);
-            animator.SetBool("isReloadPistol", true);
-            yield return new WaitForSeconds(2f);
-            animator.SetBool("isReloadPistol", false);
-            animator.SetBool("isIdle", true);
-        }
+        //IEnumerator ReloadAnimation()
+        //{
+        //    animator.SetBool("isIdle", false);
+        //    animator.SetBool("isReloadPistol", true);
+        //    yield return new WaitForSeconds(2f);
+        //    animator.SetBool("isReloadPistol", false);
+        //    animator.SetBool("isIdle", true);
+        //}
 
         //using 1 - 9 to change guns depending on what the palyer has
         for (int gunCheckID = 0; gunCheckID < guns.Length; gunCheckID++)
@@ -160,6 +156,11 @@ public class PlayerController : MonoBehaviour
                 timerIsRunning = false;
             }
         }
+
+        //if (Input.GetButton("Run"))
+        //{
+        //    speed = runSpeed;
+        //}
     }
 
     IEnumerator PlayerLight()

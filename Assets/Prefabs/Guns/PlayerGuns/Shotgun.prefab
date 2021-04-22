@@ -116,7 +116,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a3b7bd5d1906b424fa645ab6c334adb2, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1ffa583e6b4c09a439cdf6fe93d86182, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -220,6 +220,7 @@ MonoBehaviour:
   fireRate: 30
   gunID: 3
   rpm: 150
+  cameraShaker: 0.4
   totalAmmo: 45
   ammoMag: 6
   spawn: {fileID: 3663024919476539516}
@@ -503,6 +504,10 @@ PrefabInstance:
     - target: {fileID: 4702343032138574, guid: b46264f9e12caed4cb53e7c2ad64aa54, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108307684662466468, guid: b46264f9e12caed4cb53e7c2ad64aa54, type: 3}
+      propertyPath: m_Intensity
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 198348495152892252, guid: b46264f9e12caed4cb53e7c2ad64aa54, type: 3}
       propertyPath: playOnAwake
