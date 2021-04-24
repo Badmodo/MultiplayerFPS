@@ -8,8 +8,9 @@ public class Target : MonoBehaviour
     public float health = 50f;
     public float maxHealth = 50f;
 
-    private GameGUI gUI;
+    //private GameGUI gUI;
     public Image healthBar;
+    public GameObject gUI;
 
     private void Start()
     {
@@ -22,7 +23,7 @@ public class Target : MonoBehaviour
 
     private void Awake()
     {
-        gUI = GameObject.FindGameObjectWithTag("GUI").GetComponent<GameGUI>();
+        //gUI = GameObject.FindGameObjectWithTag("GUI").GetComponent<GameGUI>();
     }
 
     public void TakeDamage(float amount)

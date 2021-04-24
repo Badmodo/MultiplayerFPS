@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
     //public AudioSource jump;
     //public AudioSource step;
 
-    private float acceleration = 5f;
+    //private float acceleration = 5f;
     private Vector3 currentVelocityModifier;    
     private Quaternion targetRotation;
 
