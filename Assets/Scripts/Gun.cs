@@ -34,8 +34,6 @@ public class Gun : MonoBehaviour
     public int currentAmmoInMag;
     private bool reloading;
 
-
-
     public Camera fpsCam;
     public ParticleSystem muzzleFlash;
     public GameObject impactEffect;
